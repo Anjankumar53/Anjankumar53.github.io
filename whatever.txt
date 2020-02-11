@@ -1,2 +1,7 @@
 Idk what is happening
 In real time we can add any type of document..blah blah blah
+now git knows we are working on whatever.txt
+git add.:after files are added
+git status: 
+git config global user.name "uswername": 
+add stuff
