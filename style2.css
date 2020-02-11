@@ -1,27 +1,47 @@
 h1{
-    Background:black;
-    color:yellow;
+    background:url(backh.jpg);
+    background-size: cover;
+    color:black;
     text-align: center;
     font-size: x-large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-p{
-    font-size: 16px;
-    color: red;
+body{
+    background: url(back1.jfif);
+    background-size: cover;
+}
+p{  
+    font-family: monospace ;
+    margin-left: 20px;
+    font-size: 22px;
+    color:midnightblue;
     text-align: justify;
 }
 img{
+    margin-left: 20px;
     width: 400px;
     height:250px;
 }
 li.one{
+    margin-left: 20px;
     text-align:left;
     font-family: fantasy;
-    font-size: 20px;
+    font-size: 25px;
     color: darkblue;
 }
 li{
+    margin-left: 20px;
     font-family: fantasy;
-    font-size: small;
-    color:black
+    font-size: 20px;
+    color:black;
+}
+a{
+    color: black;
+}
+div{
+    background: url(backh.jpg);
+    background-size: cover;
+}
+img{
+    align-items: center;
 }
