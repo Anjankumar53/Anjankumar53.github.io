@@ -1,0 +1,27 @@
+h1{
+    Background:black;
+    color:yellow;
+    text-align: center;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-size: 16px;
+    color: red;
+    text-align: justify;
+}
+img{
+    width: 400px;
+    height:250px;
+}
+li.one{
+    text-align:left;
+    font-family: fantasy;
+    font-size: 20px;
+    color: darkblue;
+}
+li{
+    font-family: fantasy;
+    font-size: small;
+    color:black
+}
