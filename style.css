@@ -16,7 +16,7 @@ ul{
     padding:0;
 }
 .dark{
-    background: #000000;
+    background: #000000cc;
     color: #ffffff;
     margin: 10px 0 10px 0;
     padding: 15px;
@@ -80,7 +80,7 @@ header a:hover{
 #newsletter{
     padding: 15px;
     color: #ffffff;
-    background: #000000;
+    background: #000000cc;
     border-top: #ec6732 3px solid;
 }
 #newsletter h1{
