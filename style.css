@@ -2,7 +2,7 @@ body{
     font: 15px/1.5 Arial, helvetica,sans-serif ;
     padding: 0;
     margin: 0;
-    background:linear-gradient(#1d5c47c5,rgb(56, 189, 133), rgb(90, 185, 209),#8ee4d8c0);
+    background:linear-gradient(#1d5c59c5,rgb(56, 189, 160), rgb(90, 185, 209),#8ee4d8c0);
 }
 
 /*global*/
@@ -28,7 +28,7 @@ header{
     padding-top: 18px;
     min-height: 70px;
     color:#ffffff;
-    background: linear-gradient(#000000 50%,#121f1fe8,#2a554ed5);
+    background: linear-gradient(#000000 50%,#1c2424,#263634d5);
     border-bottom: #fb4e2e 3px  solid;
 }
 header a{
@@ -57,7 +57,7 @@ header .highlight, header .current a{
     font-weight:bold ;
 }
 header a:hover{
-    color: #ffbc02;
+    color: #14d192;
     font-weight: bold;
 }
 
