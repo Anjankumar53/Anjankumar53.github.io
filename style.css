@@ -2,7 +2,7 @@ body{
     font: 15px/1.5 Arial, helvetica,sans-serif ;
     padding: 0;
     margin: 0;
-    background-color:#faf2ad;
+    background:linear-gradient(#1d5c47c5,rgb(56, 189, 133), rgb(90, 185, 209),#8ee4d8c0);
 }
 
 /*global*/
@@ -28,7 +28,7 @@ header{
     padding-top: 18px;
     min-height: 70px;
     color:#ffffff;
-    background-color: #000000;
+    background: linear-gradient(#000000 50%,#121f1fe8,#2a554ed5);
     border-bottom: #fb4e2e 3px  solid;
 }
 header a{
@@ -135,9 +135,10 @@ article#main-col{
 ul#services li{
     list-style: none;
     padding: 10px;
-    border: #d1c871 2px solid;
+    border: #ffffff 1px solid;
+    border-radius: 10px;
     margin-bottom: 5px;
-    background: #f5eb91;
+    background: rgba(0, 0, 0, 0.507);
 }
 aside#sidebar .quote input,aside#sidebar .quote textarea{
     width: 90%;
