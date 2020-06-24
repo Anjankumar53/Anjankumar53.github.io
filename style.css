@@ -2,7 +2,7 @@ body{
     font: 15px/1.5 Arial, helvetica,sans-serif ;
     padding: 0;
     margin: 0;
-    background:linear-gradient(#1d5c59c5,rgb(56, 189, 160), rgb(90, 185, 209),#8ee4d8c0);
+    background:linear-gradient(#257e79,rgb(45, 148, 126), rgb(90, 185, 209),#8ee4d8c0);
 }
 
 /*global*/
@@ -28,7 +28,7 @@ header{
     padding-top: 18px;
     min-height: 70px;
     color:#ffffff;
-    background: linear-gradient(#000000 50%,#1c2424,#263634d5);
+    background: linear-gradient(#000000 ,#1f1f1f,#000000);
     border-bottom: #fb4e2e 3px  solid;
 }
 header a{
