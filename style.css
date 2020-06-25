@@ -2,7 +2,7 @@ body{
     font: 15px/1.5 Arial, helvetica,sans-serif ;
     padding: 0;
     margin: 0;
-    background:linear-gradient(#257e79,rgb(45, 148, 126), rgb(90, 185, 209),#8ee4d8c0);
+    background:linear-gradient(#257e79,rgb(45, 148, 126), rgb(90, 185, 209),#8ee4d8c0) no-repeat;
 }
 
 /*global*/
@@ -183,4 +183,17 @@ footer{
         width: 100%;
         margin-bottom: 5px;
     }
+}
+/*other*/
+#other{
+    background: linear-gradient(#000000 ,#1f1f1f,#000000) no-repeat center/cover;
+}
+#otherLi{
+    text-decoration: none;
+    color: black;
+    background: brown;
+    margin: 0;
+}
+#otherpage{
+    margin: 0;
 }
