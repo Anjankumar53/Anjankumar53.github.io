@@ -1,0 +1,134 @@
+body{
+    background: url(abstract-antique-backdrop-background-164005.jpg);
+    margin:0;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.showcase::after{
+    content: '';
+    height: 100vh;
+    width: 100%;
+    background: url(adorable-animals-breed-canine-374825.jpg);
+    background-repeat:  no-repeat;
+    background-size:  cover;
+    background-position:  center ;
+    display: block;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+    transition: all 1000ms;
+}
+.showcase:hover::after{
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+
+}
+.showcase:hover .content{
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+.content:hover .showcase::after{
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+.content:hover{
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+}
+.center{
+    text-align: center ;
+    margin: auto;
+}
+.bg-light{
+    background-color: #74623391;
+    color: #333;
+}
+.bg-dark{
+    background-color: rgba(0, 0, 0, 0.700);
+    color: #f4f4f4;
+}
+.content{
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    left: 50%;
+    margin-top: 105px;
+    margin-left: -160px;
+    width: 300px;
+    text-align: center;
+    height: 350px;
+    transition: all 1000ms;
+
+}
+.content .logo{
+    height: 180px;
+    width: auto;
+
+}
+.content .title{
+    font-size: 2.2rem;
+    color: rgba(255, 255, 255, 0.486);
+    
+    margin-top: 1rem;
+}
+.content .text{
+    line-height: 1.7;
+    margin-top: 1rem;
+}
+.container{
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 4rem 1rem;
+}
+.grid-3{
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-2{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: 1fr 1fr;
+}
+footer{
+    padding: 1rem;
+}
+footer p{
+    margin:0;
+}
+footer.bg-dark{
+    background-color: rgba(0, 0, 0, 0.836);
+}
+.box{
+    background-color: #0000006c;
+    padding: 10px;
+    border-radius: 10px;
+}
+@media screen and (max-width:780px){
+    .grid-3 h3{
+        font-size: 1.2rem;
+    }
+    .grid-3 p{
+        font-size: 0.8rem;
+    }
+    .grid-3{
+        display: inline;
+    }
+    .box{
+        margin: 2rem;
+    }
+    .showcase::after{
+        height: 50vh;
+    }
+    .content{
+        top: 5%;
+        margin-top :5px;
+    }
+    .content .logo{
+        height: 100px;
+        width: auto;
+    }
+    .content .text{
+        display: none;
+    }
+}
